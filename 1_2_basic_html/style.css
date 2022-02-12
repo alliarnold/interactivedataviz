@@ -17,3 +17,32 @@ h3 {
 p {
   font-size: 1em;
 }
+
+.both-same {
+  background-color: #a5ff99;
+}
+
+.ytbd {
+  background-color: #ffaf99;
+}
+
+td {
+  padding-left: 1em;
+}
+
+thead {
+  background-color: #f7ff99;
+}
+
+.col-h {
+  padding-right: 1.5em;
+  padding-left: 1em;
+  text-align: left;
+  
+}
+
+.top-h {
+  background-color: #abf0ff;
+  font-style: bold;
+  font-size: 1.5em;
+}
