@@ -1,0 +1,569 @@
+[
+ {
+   "REF": 887,
+   "Company (Manufacturer)": "Middlebury",
+   "Location": "U.S.A.",
+   "cocoaPercent": 65,
+   "Rating": 1.5
+ },
+ {
+   "REF": 1205,
+   "Company (Manufacturer)": "Habitual",
+   "Location": "Canada",
+   "cocoaPercent": 100,
+   "Rating": 2
+ },
+ {
+   "REF": 688,
+   "Company (Manufacturer)": "Olivia",
+   "Location": "Canada",
+   "cocoaPercent": 76,
+   "Rating": 2
+ },
+ {
+   "REF": 2154,
+   "Company (Manufacturer)": "Casa",
+   "Location": "U.S.A.",
+   "cocoaPercent": 75,
+   "Rating": 2
+ },
+ {
+   "REF": 15,
+   "Company (Manufacturer)": "Scharffen Berger",
+   "Location": "U.S.A.",
+   "cocoaPercent": 82,
+   "Rating": 2
+ },
+ {
+   "REF": 40,
+   "Company (Manufacturer)": "Scharffen Berger",
+   "Location": "U.S.A.",
+   "cocoaPercent": 68,
+   "Rating": 2
+ },
+ {
+   "REF": 1716,
+   "Company (Manufacturer)": "TCHO",
+   "Location": "U.S.A.",
+   "cocoaPercent": 62,
+   "Rating": 2
+ },
+ {
+   "REF": 1772,
+   "Company (Manufacturer)": "Chocolate Alchemist-Philly",
+   "Location": "U.S.A.",
+   "cocoaPercent": 80,
+   "Rating": 2.5
+ },
+ {
+   "REF": 666,
+   "Company (Manufacturer)": "Ethel's Artisan (Mars)",
+   "Location": "U.S.A.",
+   "cocoaPercent": 55,
+   "Rating": 2.5
+ },
+ {
+   "REF": 672,
+   "Company (Manufacturer)": "Ethel's Artisan (Mars)",
+   "Location": "U.S.A.",
+   "cocoaPercent": 62,
+   "Rating": 2.5
+ },
+ {
+   "REF": 999,
+   "Company (Manufacturer)": "Mast Brothers",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 2.5
+ },
+ {
+   "REF": 1197,
+   "Company (Manufacturer)": "Habitual",
+   "Location": "Canada",
+   "cocoaPercent": 74,
+   "Rating": 2.75
+ },
+ {
+   "REF": 1201,
+   "Company (Manufacturer)": "Habitual",
+   "Location": "Canada",
+   "cocoaPercent": 65,
+   "Rating": 2.75
+ },
+ {
+   "REF": 688,
+   "Company (Manufacturer)": "Olivia",
+   "Location": "Canada",
+   "cocoaPercent": 76,
+   "Rating": 2.75
+ },
+ {
+   "REF": 688,
+   "Company (Manufacturer)": "Olivia",
+   "Location": "Canada",
+   "cocoaPercent": 85,
+   "Rating": 2.75
+ },
+ {
+   "REF": 431,
+   "Company (Manufacturer)": "Escazu",
+   "Location": "U.S.A.",
+   "cocoaPercent": 74,
+   "Rating": 2.75
+ },
+ {
+   "REF": 666,
+   "Company (Manufacturer)": "Ethel's Artisan (Mars)",
+   "Location": "U.S.A.",
+   "cocoaPercent": 62,
+   "Rating": 2.75
+ },
+ {
+   "REF": 654,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 2.75
+ },
+ {
+   "REF": 947,
+   "Company (Manufacturer)": "Lillie Belle",
+   "Location": "U.S.A.",
+   "cocoaPercent": 75,
+   "Rating": 2.75
+ },
+ {
+   "REF": 457,
+   "Company (Manufacturer)": "Olive and Sinclair",
+   "Location": "U.S.A.",
+   "cocoaPercent": 67,
+   "Rating": 2.75
+ },
+ {
+   "REF": 813,
+   "Company (Manufacturer)": "Sacred",
+   "Location": "U.S.A.",
+   "cocoaPercent": 83,
+   "Rating": 2.75
+ },
+ {
+   "REF": 387,
+   "Company (Manufacturer)": "TCHO",
+   "Location": "U.S.A.",
+   "cocoaPercent": 60,
+   "Rating": 2.75
+ },
+ {
+   "REF": 1201,
+   "Company (Manufacturer)": "Habitual",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 3
+ },
+ {
+   "REF": 1201,
+   "Company (Manufacturer)": "Habitual",
+   "Location": "Canada",
+   "cocoaPercent": 80,
+   "Rating": 3
+ },
+ {
+   "REF": 688,
+   "Company (Manufacturer)": "Olivia",
+   "Location": "Canada",
+   "cocoaPercent": 85,
+   "Rating": 3
+ },
+ {
+   "REF": 2570,
+   "Company (Manufacturer)": "Escazu",
+   "Location": "U.S.A.",
+   "cocoaPercent": 65,
+   "Rating": 3
+ },
+ {
+   "REF": 99,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 61,
+   "Rating": 3
+ },
+ {
+   "REF": 276,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 64,
+   "Rating": 3
+ },
+ {
+   "REF": 387,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 91,
+   "Rating": 3
+ },
+ {
+   "REF": 853,
+   "Company (Manufacturer)": "L'Amourette",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 3
+ },
+ {
+   "REF": 2262,
+   "Company (Manufacturer)": "Map Chocolate",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 3
+ },
+ {
+   "REF": 2582,
+   "Company (Manufacturer)": "Odyssey",
+   "Location": "U.S.A.",
+   "cocoaPercent": 100,
+   "Rating": 3
+ },
+ {
+   "REF": 457,
+   "Company (Manufacturer)": "Olive and Sinclair",
+   "Location": "U.S.A.",
+   "cocoaPercent": 75,
+   "Rating": 3
+ },
+ {
+   "REF": 56,
+   "Company (Manufacturer)": "Scharffen Berger",
+   "Location": "U.S.A.",
+   "cocoaPercent": 62,
+   "Rating": 3
+ },
+ {
+   "REF": 117,
+   "Company (Manufacturer)": "Scharffen Berger",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 3
+ },
+ {
+   "REF": 135,
+   "Company (Manufacturer)": "Scharffen Berger",
+   "Location": "U.S.A.",
+   "cocoaPercent": 62,
+   "Rating": 3
+ },
+ {
+   "REF": 188,
+   "Company (Manufacturer)": "Scharffen Berger",
+   "Location": "U.S.A.",
+   "cocoaPercent": 75,
+   "Rating": 3
+ },
+ {
+   "REF": 227,
+   "Company (Manufacturer)": "Scharffen Berger",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 3
+ },
+ {
+   "REF": 387,
+   "Company (Manufacturer)": "TCHO",
+   "Location": "U.S.A.",
+   "cocoaPercent": 68,
+   "Rating": 3
+ },
+ {
+   "REF": 801,
+   "Company (Manufacturer)": "Tejas",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3
+ },
+ {
+   "REF": 188,
+   "Company (Manufacturer)": "Theo",
+   "Location": "U.S.A.",
+   "cocoaPercent": 75,
+   "Rating": 3
+ },
+ {
+   "REF": 1582,
+   "Company (Manufacturer)": "Zak's",
+   "Location": "U.S.A.",
+   "cocoaPercent": 60,
+   "Rating": 3
+ },
+ {
+   "REF": 2486,
+   "Company (Manufacturer)": "Finnia",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 3.25
+ },
+ {
+   "REF": 1808,
+   "Company (Manufacturer)": "Marigold's Finest",
+   "Location": "Canada",
+   "cocoaPercent": 75,
+   "Rating": 3.25
+ },
+ {
+   "REF": 1077,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 3.25
+ },
+ {
+   "REF": 1339,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 3.25
+ },
+ {
+   "REF": 2680,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 62,
+   "Rating": 3.25
+ },
+ {
+   "REF": 1303,
+   "Company (Manufacturer)": "Burnt Fork Bend",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 3.25
+ },
+ {
+   "REF": 1920,
+   "Company (Manufacturer)": "DAR",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.25
+ },
+ {
+   "REF": 907,
+   "Company (Manufacturer)": "Davis",
+   "Location": "U.S.A.",
+   "cocoaPercent": 58,
+   "Rating": 3.25
+ },
+ {
+   "REF": 654,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 61,
+   "Rating": 3.25
+ },
+ {
+   "REF": 654,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 3.25
+ },
+ {
+   "REF": 813,
+   "Company (Manufacturer)": "Sacred",
+   "Location": "U.S.A.",
+   "cocoaPercent": 69,
+   "Rating": 3.25
+ },
+ {
+   "REF": 915,
+   "Company (Manufacturer)": "TCHO",
+   "Location": "U.S.A.",
+   "cocoaPercent": 99,
+   "Rating": 3.25
+ },
+ {
+   "REF": 991,
+   "Company (Manufacturer)": "Videri",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.25
+ },
+ {
+   "REF": 1197,
+   "Company (Manufacturer)": "Habitual",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 3.5
+ },
+ {
+   "REF": 1399,
+   "Company (Manufacturer)": "Palette de Bine",
+   "Location": "Canada",
+   "cocoaPercent": 75,
+   "Rating": 3.5
+ },
+ {
+   "REF": 967,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 3.5
+ },
+ {
+   "REF": 2466,
+   "Company (Manufacturer)": "Dick Taylor",
+   "Location": "U.S.A.",
+   "cocoaPercent": 73,
+   "Rating": 3.5
+ },
+ {
+   "REF": 93,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 61,
+   "Rating": 3.5
+ },
+ {
+   "REF": 147,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 3.5
+ },
+ {
+   "REF": 387,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.5
+ },
+ {
+   "REF": 672,
+   "Company (Manufacturer)": "Mast Brothers",
+   "Location": "U.S.A.",
+   "cocoaPercent": 72,
+   "Rating": 3.5
+ },
+ {
+   "REF": 959,
+   "Company (Manufacturer)": "Mast Brothers",
+   "Location": "U.S.A.",
+   "cocoaPercent": 73,
+   "Rating": 3.5
+ },
+ {
+   "REF": 1363,
+   "Company (Manufacturer)": "Park 75",
+   "Location": "U.S.A.",
+   "cocoaPercent": 65,
+   "Rating": 3.5
+ },
+ {
+   "REF": 1466,
+   "Company (Manufacturer)": "Ritual",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.5
+ },
+ {
+   "REF": 15,
+   "Company (Manufacturer)": "Scharffen Berger",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.5
+ },
+ {
+   "REF": 1161,
+   "Company (Manufacturer)": "Solstice",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.5
+ },
+ {
+   "REF": 2578,
+   "Company (Manufacturer)": "Videri",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.5
+ },
+ {
+   "REF": 607,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 3.75
+ },
+ {
+   "REF": 1828,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 75,
+   "Rating": 3.75
+ },
+ {
+   "REF": 502,
+   "Company (Manufacturer)": "Bittersweet Origins",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.75
+ },
+ {
+   "REF": 1602,
+   "Company (Manufacturer)": "Guittard",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.75
+ },
+ {
+   "REF": 1359,
+   "Company (Manufacturer)": "Mast Brothers",
+   "Location": "U.S.A.",
+   "cocoaPercent": 75,
+   "Rating": 3.75
+ },
+ {
+   "REF": 636,
+   "Company (Manufacturer)": "Patric",
+   "Location": "U.S.A.",
+   "cocoaPercent": 70,
+   "Rating": 3.75
+ },
+ {
+   "REF": 1117,
+   "Company (Manufacturer)": "Videri",
+   "Location": "U.S.A.",
+   "cocoaPercent": 90,
+   "Rating": 3.75
+ },
+ {
+   "REF": 676,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 4
+ },
+ {
+   "REF": 867,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 4
+ },
+ {
+   "REF": 867,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 70,
+   "Rating": 4
+ },
+ {
+   "REF": 1077,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 88,
+   "Rating": 4
+ },
+ {
+   "REF": 1081,
+   "Company (Manufacturer)": "Soma",
+   "Location": "Canada",
+   "cocoaPercent": 67,
+   "Rating": 4
+ }
+]
