@@ -5,14 +5,6 @@
 
 // DATA
 
-/* myData = [
-  {activity: "running",count: 730},
-  {activity: "chasing", count: 279},
-  {activity:"climbing", count: 658},
-  {activity: "eating", count: 760},
-  {activity: "foraging", count: 1435}
-] */
-
 d3.csv('../data/squirrelActivities.csv', d3.autoType)
 .then(data => {
   console.log("data", data)
@@ -22,6 +14,7 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType)
 const myXScale = d3.scaleBand()
   .domain(data.map( d=> d.activity))
   .range([0, width])
+  .paddingInner(.1);
 
 const myYScale = d3.scaleLinear()
   .domain([0, d3.max(data, d => d.count)])
@@ -44,6 +37,6 @@ mySvg.selectAll("rect")
   .attr("height", d=> height - myYScale(d.count))
   .attr("x", d=> myXScale(d.activity))
   .attr("y", d=> myYScale(d.count ))
-
+  .attr("fill", "#42f587")
 
 })
