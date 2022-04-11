@@ -104,24 +104,19 @@ function init() {
 // we call this every time there is an update to the data/state
 function draw() {
 
-  mySvg.selectAll("svg")
-    .data(state.data)
-    .join("rect")
-    .attr("height", d => yScale(state.data, d.Count))
-    .attr("width", xScale.bandwidth())
-    .attr("x", d => xScale(state.data, d.Year))
-    .attr("y", d => yScale(state.data, d.Count))
-    .attr("fill", d => colorScale(state.data, d.Type));
-
- /*
-const filteredData = state.data
-  .filter(d => state.selectedCategory === "up9Units" || state.selectedCategory === d.Type )
 
 const bars = mySvg
   .selectAll("rect")
-  .data(filteredData)
-    .join(
-      enter => enter.append("rect")
+  .data(state.data)
+    .join("rec")
+    .attr("height", d=> yScale(state.data, d.Count))
+    .attr("width", xScale.bandwidth())
+    .attr("x", d=> xScale(state.data, d.Year))
+    .attr("y", d=> yScale(state.data, d.Count))
+    .attr("fill", d=> colorScale(state.data, d.Type));
+
+    
+     /* enter => enter.append("rect")
       .attr("width", xScale.bandwidth())
       .attr("height", d => yScale(state.data, d.Count))
       .attr("fill", d => colorScale(state.data, d.Type))
