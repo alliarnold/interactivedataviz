@@ -1,0 +1,137 @@
+[
+  {
+    "Year": 2013,
+    "Type": "up9Units",
+    "Count": 3500
+  },
+  {
+    "Year": 2014,
+    "Type": "up9Units",
+    "Count": 44749
+  },
+  {
+    "Year": 2015,
+    "Type": "up9Units",
+    "Count": 19206
+  },
+  {
+    "Year": 2016,
+    "Type": "up9Units",
+    "Count": 35163
+  },
+  {
+    "Year": 2017,
+    "Type": "up9Units",
+    "Count": 108731
+  },
+  {
+    "Year": 2018,
+    "Type": "up9Units",
+    "Count": 255417
+  },
+  {
+    "Year": 2019,
+    "Type": "up9Units",
+    "Count": 0
+  },
+  {
+    "Year": 2020,
+    "Type": "up9Units",
+    "Count": 0
+  },
+  {
+    "Year": 2021,
+    "Type": "up9Units",
+    "Count": 0
+  },
+  {
+    "Year": 2013,
+    "Type": "10upUnits",
+    "Count": 8
+  },
+  {
+    "Year": 2014,
+    "Type": "10upUnits",
+    "Count": 132
+  },
+  {
+    "Year": 2015,
+    "Type": "10upUnits",
+    "Count": 154
+  },
+  {
+    "Year": 2016,
+    "Type": "10upUnits",
+    "Count": 167
+  },
+  {
+    "Year": 2017,
+    "Type": "10upUnits",
+    "Count": 356
+  },
+  {
+    "Year": 2018,
+    "Type": "10upUnits",
+    "Count": 670
+  },
+  {
+    "Year": 2019,
+    "Type": "10upUnits",
+    "Count": 660
+  },
+  {
+    "Year": 2020,
+    "Type": "10upUnits",
+    "Count": 273
+  },
+  {
+    "Year": 2021,
+    "Type": "10upUnits",
+    "Count": 0
+  },
+  {
+    "Year": 2013,
+    "Type": "schools",
+    "Count": 87
+  },
+  {
+    "Year": 2014,
+    "Type": "schools",
+    "Count": 374
+  },
+  {
+    "Year": 2015,
+    "Type": "schools",
+    "Count": 754
+  },
+  {
+    "Year": 2016,
+    "Type": "schools",
+    "Count": 772
+  },
+  {
+    "Year": 2017,
+    "Type": "schools",
+    "Count": 792
+  },
+  {
+    "Year": 2018,
+    "Type": "schools",
+    "Count": 802
+  },
+  {
+    "Year": 2019,
+    "Type": "schools",
+    "Count": 816
+  },
+  {
+    "Year": 2020,
+    "Type": "schools",
+    "Count": 952
+  },
+  {
+    "Year": 2021,
+    "Type": "schools",
+    "Count": 952
+  }
+ ]
