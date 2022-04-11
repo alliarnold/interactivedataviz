@@ -71,12 +71,12 @@ function init() {
     .attr("width", width)
     .attr("height", height)
   
-  const xAxisGroup = svg.append("g")
+  const xAxisGroup = mySvg.append("g")
     .attr("class", 'xAxis')
     .attr("transform", `translate(${margin.left}, ${height-18})`)
     .call(xAxis)
 
-  const yAxisGroup = svg.append("g")
+  const yAxisGroup = mySvg.append("g")
     .attr("class", 'yAxis')
     .attr("transform", `translate(${60}, ${-18})`)
     .call(yAxis)
@@ -104,20 +104,20 @@ function init() {
 // we call this every time there is an update to the data/state
 function draw() {
 
-  mySvg.selectAll("rect")
+  mySvg.selectAll("svg")
     .data(state.data)
     .join("rect")
     .attr("height", d => yScale(state.data, d.Count))
     .attr("width", xScale.bandwidth())
     .attr("x", d => xScale(state.data, d.Year))
-    .attr("y", 0)
+    .attr("y", d => yScale(state.data, d.Count))
     .attr("fill", d => colorScale(state.data, d.Type));
 
  /*
 const filteredData = state.data
   .filter(d => state.selectedCategory === "up9Units" || state.selectedCategory === d.Type )
 
-const bars = svg
+const bars = mySvg
   .selectAll("rect")
   .data(filteredData)
     .join(

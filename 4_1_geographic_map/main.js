@@ -15,6 +15,8 @@ controlLayers  = L.control.layers(null, null, {
     collapsed: false
 }).addTo(map);
 
+
+
 /*
 Later in process: Add a legend (checkboxes) to the upper-right corner.
 At first, baselayers and overlays are set to `null` (empty legend).
@@ -24,10 +26,6 @@ We will be adding items to the legend as we load each layer.
     
 // display basemap tiles 
 
-const baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 19,
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
 
 // see more basemap options at https://leaflet-extras.github.io/leaflet-providers/preview/
 
@@ -71,4 +69,5 @@ const myCircle01 = L.circle([40.70748615030739, -73.92744598608154], {
 }).addTo(map);
 
 myCircle01.bindPopup("area of interest")
+
 // add data overlay layers
