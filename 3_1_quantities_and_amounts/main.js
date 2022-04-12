@@ -34,18 +34,19 @@ function init() {
   /* SCALES */
   xScale = d3.scaleBand()
     .domain(state.data.map(d => d.Year))
-    .range([0, width])
+    // COMMENT: may want to add margins accommdations here too
+    .range([margin.left, width - margin.right])
     .paddingInner(.2)
 
   yScale = d3.scaleLinear()
     .domain([0, d3.max(state.data, d => d.Count)])
-    .range([height, 0])
-
+    .range([height-margin.bottom, margin.top])
+    
   colorScale = d3.scaleOrdinal()
-    .domain("up9Units", "10upUnits", "schools")
+    .domain(["up9Units", "10upUnits", "schools"])
     .range(["red", "orange", "blue"])
 
-  const xAxis = d3.axisBottom(xScale)
+  const xAxis = d3.axisBottom(xScale);
   const yAxis = d3.axisLeft(yScale)
 
   const selectElement = d3.select("#dropdown")
@@ -73,26 +74,26 @@ function init() {
   
   const xAxisGroup = mySvg.append("g")
     .attr("class", 'xAxis')
-    .attr("transform", `translate(${margin.left}, ${height-18})`)
+    .attr("transform", `translate(${0}, ${height-margin.bottom})`)
     .call(xAxis)
 
   const yAxisGroup = mySvg.append("g")
     .attr("class", 'yAxis')
-    .attr("transform", `translate(${60}, ${-18})`)
+    .attr("transform", `translate(${margin.left}, ${0})`)
     .call(yAxis)
 
   xAxisGroup.append("text")
     .attr("class", 'axis-title')
-    .attr("x", width/4)
-    .attr("y", 20)
+    .attr("x", width/2)
+    .attr("y", 0)
     .attr("writing-mode", "vertical-lr")
     .attr("text-anchor", "middle")
     .text("Year")
   
   yAxisGroup.append("text")
     .attr("class", 'axis-title')
-    .attr("x", -20)
-    .attr("y", height/4)
+    .attr("x", 0)
+    .attr("y", height/2)
     .attr("writing-mode", "verticle-lr")
     .attr("text-anchor", "middle")
     .text("Number of Participants")
@@ -105,15 +106,18 @@ function init() {
 function draw() {
 
 
+const filteredData = state.data
+  .filter(d => state.selectedCategory === d.Type)
+
 const bars = mySvg
   .selectAll("rect")
-  .data(state.data)
+  .data(filteredData)
     .join("rec")
-    .attr("height", d=> yScale(state.data, d.Count))
-    .attr("width", xScale.bandwidth())
-    .attr("x", d=> xScale(state.data, d.Year))
-    .attr("y", d=> yScale(state.data, d.Count))
-    .attr("fill", d=> colorScale(state.data, d.Type));
+    .attr("height", d=> height-margin.bottom - yScale(d.Count))
+    .attr("width", xScale.bandwidth)
+    .attr("x", d=> xScale(d.Year))
+    .attr("y", d=> yScale(d.Count))
+    .attr("fill", d=> colorScale(d.Type));
 
     
      /* enter => enter.append("rect")
