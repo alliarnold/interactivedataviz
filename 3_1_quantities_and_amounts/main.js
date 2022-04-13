@@ -1,7 +1,7 @@
 /* CONSTANTS AND GLOBALS */
 const width = window.innerWidth * .7,
   height = window.innerHeight * .7,
-  margin = { top: 20, bottom: 60, left: 60, right: 20},
+  margin = { top: 20, bottom: 60, left: 70, right: 20},
   formatDate = d3.timeFormat("%Y");
 
 // // since we use our scales in multiple functions, they need global scope
@@ -92,7 +92,7 @@ function init() {
   
   mySvg.append("text")
     .attr("class", 'axis-title')
-    .attr("x", 5)
+    .attr("x", 10)
     .attr("y", (height - margin.bottom)/2)
     .attr("writing-mode", "vertical-rl")
     .attr("text-anchor", "middle")
